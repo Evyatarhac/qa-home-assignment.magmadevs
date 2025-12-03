@@ -7,3 +7,4 @@ def test_endpoint_1_success(token):
     json = response.json()
     assert json["status"] == "success"
     assert json["message"] == "Request completed"
+

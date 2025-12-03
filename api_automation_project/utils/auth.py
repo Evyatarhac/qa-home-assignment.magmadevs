@@ -11,6 +11,7 @@ def generate_token():
     refresh_token = os.getenv("REFRESH_TOKEN")
     url = f"{BASE_URL}/api/auth/generate"
 
+
     response = requests.post(url, json={"refresh_token": refresh_token})
     response.raise_for_status()
 
