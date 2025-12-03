@@ -2,7 +2,7 @@
 
 This automation suite is implemented in Python using pytest and the requests library.
 
-## Why we chose to automate only endpoints 1, 2, 6 and 3
+## Why I chose to automate only endpoints 1, 2, 3 and 6 
 
 Given the time constraints and based on a risk‑based testing strategy, I decided to automate only the following cases:
 
