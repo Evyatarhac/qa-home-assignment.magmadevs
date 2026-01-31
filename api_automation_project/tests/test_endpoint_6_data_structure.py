@@ -20,3 +20,4 @@ def test_endpoint_6_data_structure(token):
     assert isinstance(data["count"], int)
     assert isinstance(data["id"], int)
     assert isinstance(data["value"], int)
+

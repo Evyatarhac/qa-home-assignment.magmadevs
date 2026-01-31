@@ -12,3 +12,4 @@ def api_get(endpoint, token):
     headers = {"Authorization": f"Bearer {token}"}
     response = requests.get(url, headers=headers)
     return response
+

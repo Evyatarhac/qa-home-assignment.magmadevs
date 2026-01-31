@@ -10,5 +10,6 @@ def test_endpoint_3_warmup_optional(token):
     first = api_get("/api/test/3", token)
     second = api_get("/api/test/3", token)
 
+
     assert first.status_code == 503
     assert second.status_code == 200
